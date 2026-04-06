@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="it" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asperger – Associazioni Cliniche</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Playfair+Display:wght@700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    html, body { height: 100%; margin: 0; }
+    * { box-sizing: border-box; }
+    .font-heading { font-family: 'Playfair Display', Georgia, serif; }
+    .font-body { font-family: 'DM Sans', sans-serif; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+    .anim-in { animation: fadeUp 0.6s ease both; }
+    .anim-d1 { animation-delay: 0.1s; }
+    .anim-d2 { animation-delay: 0.2s; }
+    .anim-d3 { animation-delay: 0.3s; }
+    .anim-d4 { animation-delay: 0.4s; }
+    .anim-d5 { animation-delay: 0.5s; }
+    .anim-d6 { animation-delay: 0.6s; }
+    .anim-d7 { animation-delay: 0.7s; }
+    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full font-body">
+  <div id="app-wrapper" class="w-full h-full overflow-auto" style="background:#0b1120;"><!-- Hero -->
+   <header class="relative w-full overflow-hidden" style="background: linear-gradient(135deg, #0b1120 0%, #162040 50%, #1a3060 100%);">
+    <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 20% 50%, #4f8fff 0%, transparent 50%), radial-gradient(circle at 80% 20%, #7c5cfc 0%, transparent 40%);"></div>
+    <div class="relative max-w-4xl mx-auto px-6 py-16 text-center">
+     <p class="text-sm tracking-[0.3em] uppercase mb-4 anim-in" style="color:#6b9fff;">Infografica Clinica</p>
+     <h1 id="el-title" class="font-heading text-5xl md:text-7xl font-800 mb-3 anim-in anim-d1" style="color:#e8f0ff;">ASPERGER</h1>
+     <p id="el-subtitle" class="text-xl md:text-2xl font-light anim-in anim-d2" style="color:#8badd9;">e le sue associazioni cliniche</p>
+     <div class="mt-10 max-w-2xl mx-auto text-left space-y-2 anim-in anim-d3" style="color:#a0b8d8; font-size:0.95rem; line-height:1.7;">
+      <p>La sindrome di Asperger rientra nello <strong style="color:#e8f0ff;">spettro autistico</strong>. Non è una malattia — è una <strong style="color:#e8f0ff;">condizione neurodivergente</strong>. Non si trasmette. Spesso coesiste con altri disturbi (comorbilità).</p>
+      <p class="mt-3">Le difficoltà principali: <span style="color:#7ca8e6;">comunicazione sociale</span> · <span style="color:#7ca8e6;">flessibilità mentale</span> · <span style="color:#7ca8e6;">gestione emotiva</span></p>
+     </div>
+    </div>
+   </header><!-- Key Messages -->
+   <section class="w-full px-6 py-10">
+    <div class="max-w-4xl mx-auto">
+     <div class="flex flex-wrap gap-4 justify-center anim-in anim-d4">
+      <div class="flex items-center gap-3 px-6 py-4 rounded-2xl" style="background:#1a1525; border:1px solid #2a2040;"><span class="text-2xl">❌</span> <span style="color:#d4b8ff; font-weight:500;">Non è una patologia</span>
+      </div>
+      <div class="flex items-center gap-3 px-6 py-4 rounded-2xl" style="background:#1a1525; border:1px solid #2a2040;"><span class="text-2xl">❌</span> <span style="color:#d4b8ff; font-weight:500;">Non è trasmissibile</span>
+      </div>
+     </div>
+    </div>
+   </section><!-- Section Title -->
+   <section class="w-full px-6 pb-6">
+    <div class="max-w-4xl mx-auto text-center">
+     <h2 class="font-heading text-2xl md:text-3xl font-700 anim-in anim-d4" style="color:#e8f0ff;">Può essere collegato a</h2>
+     <div class="w-16 h-1 mx-auto mt-3 rounded-full" style="background: linear-gradient(90deg, #4f8fff, #7c5cfc);"></div>
+    </div>
+   </section><!-- Cards Grid -->
+   <section class="w-full px-6 pb-12">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"><!-- Card 1: Ansia -->
+     <div class="card-hover rounded-2xl p-6 anim-in anim-d4" style="background:#111a2e; border:1px solid #1e2d4a;">
+      <div class="flex items-center gap-3 mb-4">
+       <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#1a2d50;"><i data-lucide="cloud-lightning" style="width:20px;height:20px;color:#5b9aff;"></i>
+       </div>
+       <div><span class="text-xs font-medium tracking-wider uppercase" style="color:#5b9aff;">01</span>
+        <h3 class="font-heading text-lg font-700" style="color:#e8f0ff;">Disturbi d'Ansia</h3>
+       </div>
+      </div>
+      <ul class="space-y-1.5" style="color:#8badd9; font-size:0.88rem;">
+       <li class="flex items-start gap-2"><span style="color:#5b9aff;">›</span> Ansia sociale</li>
+       <li class="flex items-start gap-2"><span style="color:#5b9aff;">›</span> Preoccupazione costante</li>
+       <li class="flex items-start gap-2"><span style="color:#5b9aff;">›</span> Paure specifiche</li>
+       <li class="flex items-start gap-2"><span style="color:#5b9aff;">›</span> Difficoltà nella separazione</li>
+      </ul>
+     </div><!-- Card 2: Ossessivi -->
+     <div class="card-hover rounded-2xl p-6 anim-in anim-d5" style="background:#111a2e; border:1px solid #1e2d4a;">
+      <div class="flex items-center gap-3 mb-4">
+       <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#1e1a35;"><i data-lucide="repeat" style="width:20px;height:20px;color:#9b7cfc;"></i>
+       </div>
+       <div><span class="text-xs font-medium tracking-wider uppercase" style="color:#9b7cfc;">02</span>
+        <h3 class="font-heading text-lg font-700" style="color:#e8f0ff;">Disturbi Ossessivi</h3>
+       </div>
+      </div>
+      <ul class="space-y-1.5" style="color:#8badd9; font-size:0.88rem;">
+       <li class="flex items-start gap-2"><span style="color:#9b7cfc;">›</span> Pensieri ricorrenti</li>
+       <li class="flex items-start gap-2"><span style="color:#9b7cfc;">›</span> Azioni ripetitive</li>
+       <li class="flex items-start gap-2"><span style="color:#9b7cfc;">›</span> Rituali mentali o comportamentali</li>
+      </ul>
+     </div><!-- Card 3: ADHD -->
+     <div class="card-hover rounded-2xl p-6 anim-in anim-d5" style="background:#111a2e; border:1px solid #1e2d4a;">
+      <div class="flex items-center gap-3 mb-4">
+       <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#1a2520;"><i data-lucide="zap" style="width:20px;height:20px;color:#4fd8a0;"></i>
+       </div>
+       <div><span class="text-xs font-medium tracking-wider uppercase" style="color:#4fd8a0;">03</span>
+        <h3 class="font-heading text-lg font-700" style="color:#e8f0ff;">ADHD</h3>
+       </div>
+      </div>
+      <ul class="space-y-1.5" style="color:#8badd9; font-size:0.88rem;">
+       <li class="flex items-start gap-2"><span style="color:#4fd8a0;">›</span> Scarsa concentrazione</li>
+       <li class="flex items-start gap-2"><span style="color:#4fd8a0;">›</span> Impulsività</li>
+       <li class="flex items-start gap-2"><span style="color:#4fd8a0;">›</span> Iperattività</li>
+      </ul>
+     </div><!-- Card 4: Umore -->
+     <div class="card-hover rounded-2xl p-6 anim-in anim-d6" style="background:#111a2e; border:1px solid #1e2d4a;">
+      <div class="flex items-center gap-3 mb-4">
+       <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#25181a;"><i data-lucide="heart" style="width:20px;height:20px;color:#ff7088;"></i>
+       </div>
+       <div><span class="text-xs font-medium tracking-wider uppercase" style="color:#ff7088;">04</span>
+        <h3 class="font-heading text-lg font-700" style="color:#e8f0ff;">Disturbi dell'Umore</h3>
+       </div>
+      </div>
+      <ul class="space-y-1.5" style="color:#8badd9; font-size:0.88rem;">
+       <li class="flex items-start gap-2"><span style="color:#ff7088;">›</span> Tristezza frequente</li>
+       <li class="flex items-start gap-2"><span style="color:#ff7088;">›</span> Irritabilità</li>
+       <li class="flex items-start gap-2"><span style="color:#ff7088;">›</span> Calo motivazionale</li>
+      </ul>
+     </div><!-- Card 5: Sonno -->
+     <div class="card-hover rounded-2xl p-6 anim-in anim-d6" style="background:#111a2e; border:1px solid #1e2d4a;">
+      <div class="flex items-center gap-3 mb-4">
+       <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#1a1a30;"><i data-lucide="moon" style="width:20px;height:20px;color:#8090d0;"></i>
+       </div>
+       <div><span class="text-xs font-medium tracking-wider uppercase" style="color:#8090d0;">05</span>
+        <h3 class="font-heading text-lg font-700" style="color:#e8f0ff;">Problemi del Sonno</h3>
+       </div>
+      </div>
+      <ul class="space-y-1.5" style="color:#8badd9; font-size:0.88rem;">
+       <li class="flex items-start gap-2"><span style="color:#8090d0;">›</span> Difficoltà ad addormentarsi</li>
+       <li class="flex items-start gap-2"><span style="color:#8090d0;">›</span> Sonno irregolare</li>
+       <li class="flex items-start gap-2"><span style="color:#8090d0;">›</span> Risvegli frequenti</li>
+      </ul>
+     </div><!-- Card 6: Altre -->
+     <div class="card-hover rounded-2xl p-6 anim-in anim-d7" style="background:#111a2e; border:1px solid #1e2d4a;">
+      <div class="flex items-center gap-3 mb-4">
+       <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background:#201a18;"><i data-lucide="puzzle" style="width:20px;height:20px;color:#e0a050;"></i>
+       </div>
+       <div><span class="text-xs font-medium tracking-wider uppercase" style="color:#e0a050;">06</span>
+        <h3 class="font-heading text-lg font-700" style="color:#e8f0ff;">Altre Associazioni</h3>
+       </div>
+      </div>
+      <ul class="space-y-1.5" style="color:#8badd9; font-size:0.88rem;">
+       <li class="flex items-start gap-2"><span style="color:#e0a050;">›</span> Difficoltà linguistiche</li>
+       <li class="flex items-start gap-2"><span style="color:#e0a050;">›</span> Problemi motori (coordinazione)</li>
+       <li class="flex items-start gap-2"><span style="color:#e0a050;">›</span> Alterazioni del ritmo sonno-veglia</li>
+      </ul>
+     </div>
+    </div>
+   </section><!-- Closing -->
+   <footer class="w-full px-6 pb-16 pt-4">
+    <div class="max-w-3xl mx-auto rounded-2xl p-8 text-center anim-in anim-d7" style="background: linear-gradient(135deg, #162040, #1a2850); border:1px solid #253660;"><i data-lucide="infinity" style="width:32px;height:32px;color:#5b9aff;margin:0 auto 16px;display:block;"></i>
+     <p id="el-closing" class="text-lg leading-relaxed" style="color:#c0d4f0;">Comprendere questa condizione → aumenta il supporto efficace.<br>
+       Un approccio corretto → migliora la qualità della vita.<br><strong style="color:#e8f0ff;">Focus: adattamento, non "cura".</strong></p>
+    </div>
+   </footer>
+  </div>
+  <script>
+    lucide.createIcons();
+
+    const defaultConfig = {
+      main_title: 'ASPERGER',
+      subtitle: 'e le sue associazioni cliniche',
+      closing_message: 'Comprendere questa condizione → aumenta il supporto efficace.\nUn approccio corretto → migliora la qualità della vita.\nFocus: adattamento, non "cura".',
+      background_color: '#0b1120',
+      card_color: '#111a2e',
+      text_color: '#e8f0ff',
+      accent_color: '#5b9aff',
+      muted_color: '#8badd9',
+      font_family: 'DM Sans',
+      font_size: 16
+    };
+
+    function applyConfig(config) {
+      const t = (k) => config[k] || defaultConfig[k];
+
+      document.getElementById('el-title').textContent = t('main_title');
+      document.getElementById('el-subtitle').textContent = t('subtitle');
+
+      const closingText = t('closing_message');
+      document.getElementById('el-closing').innerHTML = closingText.replace(/\n/g, '<br>');
+
+      const bg = t('background_color');
+      const card = t('card_color');
+      const text = t('text_color');
+      const accent = t('accent_color');
+      const muted = t('muted_color');
+
+      document.getElementById('app-wrapper').style.background = bg;
+
+      document.querySelectorAll('.card-hover').forEach(el => {
+        el.style.background = card;
+      });
+
+      document.querySelectorAll('.font-heading').forEach(el => {
+        if (el.id === 'el-title' || el.tagName === 'H2') el.style.color = text;
+      });
+
+      const font = t('font_family');
+      const baseStack = 'DM Sans, sans-serif';
+      document.querySelectorAll('.font-body, .font-heading').forEach(el => {
+        if (el.classList.contains('font-heading')) {
+          el.style.fontFamily = `Playfair Display, ${font}, serif`;
+        }
+      });
+      document.body.style.fontFamily = `${font}, ${baseStack}`;
+
+      const size = t('font_size');
+      document.body.style.fontSize = size + 'px';
+      document.getElementById('el-title').style.fontSize = (size * 3.5) + 'px';
+      document.getElementById('el-subtitle').style.fontSize = (size * 1.4) + 'px';
+    }
+
+    window.elementSdk.init({
+      defaultConfig,
+      onConfigChange: async (config) => { applyConfig(config); },
+      mapToCapabilities: (config) => ({
+        recolorables: [
+          { get: () => config.background_color || defaultConfig.background_color, set: (v) => { config.background_color = v; window.elementSdk.setConfig({ background_color: v }); } },
+          { get: () => config.card_color || defaultConfig.card_color, set: (v) => { config.card_color = v; window.elementSdk.setConfig({ card_color: v }); } },
+          { get: () => config.text_color || defaultConfig.text_color, set: (v) => { config.text_color = v; window.elementSdk.setConfig({ text_color: v }); } },
+          { get: () => config.accent_color || defaultConfig.accent_color, set: (v) => { config.accent_color = v; window.elementSdk.setConfig({ accent_color: v }); } },
+          { get: () => config.muted_color || defaultConfig.muted_color, set: (v) => { config.muted_color = v; window.elementSdk.setConfig({ muted_color: v }); } }
+        ],
+        borderables: [],
+        fontEditable: { get: () => config.font_family || defaultConfig.font_family, set: (v) => { config.font_family = v; window.elementSdk.setConfig({ font_family: v }); } },
+        fontSizeable: { get: () => config.font_size || defaultConfig.font_size, set: (v) => { config.font_size = v; window.elementSdk.setConfig({ font_size: v }); } }
+      }),
+      mapToEditPanelValues: (config) => new Map([
+        ['main_title', config.main_title || defaultConfig.main_title],
+        ['subtitle', config.subtitle || defaultConfig.subtitle],
+        ['closing_message', config.closing_message || defaultConfig.closing_message]
+      ])
+    });
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e3dc38ec13eedcc',t:'MTc3NDc3NTY2Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
